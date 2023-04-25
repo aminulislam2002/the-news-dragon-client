@@ -5,6 +5,7 @@ const Footer = () => {
     <div>
       <p className="text-center">
         <small>copyright of my news</small>
+        
       </p>
     </div>
   );
