@@ -7,8 +7,8 @@ import bg from "../../../assets/bg.png";
 const RightNav = () => {
   return (
     <div>
-      <h4>Login with</h4>
       <div>
+        <h4 className="mt-4">Login with</h4>
         <Button variant="outline-primary" className="mb-2 w-100">
           <FaGoogle /> Login with Google
         </Button>
@@ -17,6 +17,7 @@ const RightNav = () => {
         </Button>
       </div>
       <div>
+        <h4 className="mt-4">Find Us on</h4>
         <ListGroup>
           <ListGroup.Item>
             <FaFacebook></FaFacebook>Facebook
